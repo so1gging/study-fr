@@ -15,9 +15,11 @@ module.exports = {
     // Handle module aliases (this will be automatically configured for you soon)
     '^~/(.*)$': '<rootDir>/$1',
   },
+  moduleFileExtensions: ['js', 'mjs', 'cjs', 'jsx', 'ts', 'tsx', 'json', 'node', 'yml'],
   roots: ['<rootDir>'],
   testMatch: ['<rootDir>/test/**/*.{js,jsx,ts,tsx}'],
   transform: {
     '^.+\\.ts?$': 'ts-jest',
+    '^.+\\.tsx?$': 'ts-jest',
   },
 }
