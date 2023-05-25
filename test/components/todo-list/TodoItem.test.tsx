@@ -11,7 +11,7 @@ describe('Test TodoItem', () => {
 
     const change = jest.fn()
 
-    render(<TodoItem {...item} onChange={change} />)
+    render(<TodoItem {...item} onDeleted={change} onChecked={change} />)
     const todoText = screen.getByText(item.title)
     const deletedBtn = screen.getByRole('button', { name: '삭제' })
     const updateBtn = screen.getByRole('button', { name: '수정' })
