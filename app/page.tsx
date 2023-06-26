@@ -11,6 +11,9 @@ export default function Home() {
         <li>
           <Link href="./todo-list">투두리스트</Link>
         </li>
+        <li>
+          <Link href="./children-api">Children</Link>
+        </li>
       </ul>
     </div>
   )
