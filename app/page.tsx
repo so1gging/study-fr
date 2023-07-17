@@ -14,6 +14,9 @@ export default function Home() {
         <li>
           <Link href="./children-api">Children</Link>
         </li>
+        <li>
+          <Link href="./svg-vs-div">svg vs div</Link>
+        </li>
       </ul>
     </div>
   )
