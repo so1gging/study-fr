@@ -1,0 +1,47 @@
+{
+  "count": 1154,
+  "next": "https://pokeapi.co/api/v2/pokemon/?offset=1010&limit=10",
+  "previous": "https://pokeapi.co/api/v2/pokemon/?offset=990&limit=10}",
+  "results": [
+    {
+      "name": "피카츄 신오 모자",
+      "url": "https://pokeapi.co/api/v2/pokemon/10096/"
+    },
+    {
+      "name": "피카츄 우노바 모자",
+      "url": "https://pokeapi.co/api/v2/pokemon/10097/"
+    },
+    {
+      "name": "피카츄 칼로스 모자",
+      "url": "https://pokeapi.co/api/v2/pokemon/10098/"
+    },
+    {
+      "name": "피카츄 알로아 모자",
+      "url": "https://pokeapi.co/api/v2/pokemon/10099/"
+    },
+    {
+      "name": "라이츄 알로아",
+      "url": "https://pokeapi.co/api/v2/pokemon/10100/"
+    },
+    {
+      "name": "모래두지 알로아",
+      "url": "https://pokeapi.co/api/v2/pokemon/10101/"
+    },
+    {
+      "name": "고지 알로아",
+      "url": "https://pokeapi.co/api/v2/pokemon/10102/"
+    },
+    {
+      "name": "식스테일 알로아",
+      "url": "https://pokeapi.co/api/v2/pokemon/10103/"
+    },
+    {
+      "name": "나인테일 알로아",
+      "url": "https://pokeapi.co/api/v2/pokemon/10104/"
+    },
+    {
+      "name": "디그다 알로아",
+      "url": "https://pokeapi.co/api/v2/pokemon/10105/"
+    }
+  ]
+}
