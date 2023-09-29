@@ -9,6 +9,13 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
+  if (process.env.NODE_ENV === 'development') {
+    ;(async () => {
+      const { worker } = await import('../mocks/broswer')
+      worker.start()
+    })()
+  }
+
   return (
     <html lang="ko">
       <body className={inter.className}>

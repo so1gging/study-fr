@@ -17,6 +17,9 @@ export default function Home() {
         <li>
           <Link href="./svg-vs-div">svg vs div</Link>
         </li>
+        <li>
+          <Link href="./msw">msw</Link>
+        </li>
       </ul>
     </div>
   )
