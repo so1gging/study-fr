@@ -64,3 +64,13 @@ const fullCallbackWorking = () => {
     }, 5000)
   }, 5000)
 }
+
+export const 버스를_타러_갑시다 = (hour: number, second: string) => {
+  return new Promise((resolve, reject) => {
+    if (hour <= 7) {
+      resolve('무사 출근 완료! 😎')
+    } else {
+      reject(second)
+    }
+  })
+}
