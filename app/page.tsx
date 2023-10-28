@@ -20,6 +20,9 @@ export default function Home() {
         <li>
           <Link href="./msw">msw</Link>
         </li>
+        <li>
+          <Link href="./promise">promise</Link>
+        </li>
       </ul>
     </div>
   )
