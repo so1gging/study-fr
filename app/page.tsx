@@ -23,6 +23,9 @@ export default function Home() {
         <li>
           <Link href="./promise">promise</Link>
         </li>
+        <li>
+          <Link href="./ccp">Compound Component Pattern</Link>
+        </li>
       </ul>
     </div>
   )
